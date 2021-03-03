@@ -1,0 +1,67 @@
+:root {
+    --ff-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* ADD YOUR CODE BELOW */
+    --fs-title: 2rem;
+    /* --fs-body: 1.5rem; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--ff-primary);
+    text-align: center;
+    /* font-size: var(--fs-body); */
+}
+
+span {
+    display: block;
+}
+
+h1 {
+    /* ADD YOUR CODE BELOW */
+    font-size: var(--fs-title);
+}
+
+.responsive-header-img {
+    /* ADD YOUR CODE BELOW */
+    width: 100%;
+    height:auto;   
+}
+
+
+.responsive-cat-img {
+    /* ADD YOUR CODE BELOW */
+   
+    width: auto;
+    height: 500px;
+    border:5px white solid;
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px){
+    /* ADD YOUR CODE BELOW */
+    .all-cats{
+        display: flex;
+        flex-direction: row wrap;
+    }
+} 
+
+@media screen and (min-width: 768px) {
+    /* ADD YOUR CODE BELOW */
+    .all-cats{
+        display: flex;
+        flex-direction: row wrap;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /* ADD YOUR CODE BELOW */
+    .all-cats{
+        display: flex;
+        flex-direction: row wrap;
+        /* width:40%; */
+        /* height:auto; */
+    }
+}
